@@ -80,7 +80,6 @@ export default function CustomizedInputBase() {
         task: {
           ...editingTask,
           description: taskDescription,
-          priority: taskPriority,
         },
       })
         .then((response) => {
